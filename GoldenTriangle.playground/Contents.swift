@@ -3,6 +3,7 @@ import Foundation
 
 
 public func solution(_ T :[Int]) -> Bool {
+    
     if T.count < 3 {
         return false
     }
