@@ -11,7 +11,11 @@ public func solution(_ T :[Int]) -> Bool {
     let sortedArray = T.sorted(by: {$0 < $1})
     
     for i in 0..<sortedArray.count-2 {
-        if sortedArray[i] + sortedArray[i+1] > sortedArray[i+2]{
+        print("\(sortedArray[i]) + \(sortedArray[i+1]) > \(sortedArray[i+2])")
+        print("\(sortedArray[i+1]) + \(sortedArray[i+2]) > \(sortedArray[i])")
+        print("\(sortedArray[i]) + \(sortedArray[i+2]) > \(sortedArray[i+1])")
+        if sortedArray[i] + sortedArray[i+1] > sortedArray[i+2] && sortedArray[i+1] + sortedArray[i+2] > sortedArray[i]
+            && sortedArray[i] + sortedArray[i+2] < sortedArray[i+1]{
             return true
         }
     }
@@ -20,7 +24,8 @@ public func solution(_ T :[Int]) -> Bool {
     
 }
 
-print(solution(  [10,2,5,1,8,20])) //MARK: TEST CASES
+print(solution(  [10,50,5,1])) //MARK: TEST CASES
+
 
 //1 2 5 8 10 20
 //
