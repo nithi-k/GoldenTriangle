@@ -15,7 +15,7 @@ public func solution(_ T :[Int]) -> Bool {
         print("\(sortedArray[i+1]) + \(sortedArray[i+2]) > \(sortedArray[i])")
         print("\(sortedArray[i]) + \(sortedArray[i+2]) > \(sortedArray[i+1])")
         if sortedArray[i] + sortedArray[i+1] > sortedArray[i+2] && sortedArray[i+1] + sortedArray[i+2] > sortedArray[i]
-            && sortedArray[i] + sortedArray[i+2] < sortedArray[i+1]{
+            && sortedArray[i] + sortedArray[i+2] > sortedArray[i+1]{
             return true
         }
     }
