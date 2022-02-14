@@ -1,9 +1,7 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="_0"></a>สามเหลี่ยมทองคำ</h1>
-<ul>
-<li class="has-line-data" data-line-start="2" data-line-end="3">กำหนด Array จำนวนเต็ม T มีขนาดเท่ากับ N</li>
-<li class="has-line-data" data-line-start="3" data-line-end="4">ความยาวของแต่ละด้านใน array สามารถสร้างเป็นรูป 3 เหลี่ยมได้ ภายใต้เงื่อนไขที่ว่า</li>
-<li class="has-line-data" data-line-start="4" data-line-end="6">ทุกๆด้านของสามเหลี่ยม จะมีค่าน้อยกว่าผลรวมของด้านที่เหลือเสมอ</li>
-</ul>
+<p class="has-line-data" data-line-start="2" data-line-end="5">กำหนด Array จำนวนเต็ม T มีขนาดเท่ากับ N<br>
+ความยาวของแต่ละด้านใน array สามารถสร้างเป็นรูป 3 เหลี่ยมได้ ภายใต้เงื่อนไขที่ว่า<br>
+ทุกๆด้านของสามเหลี่ยม จะมีค่าน้อยกว่าผลรวมของด้านที่เหลือเสมอ</p>
 <p class="has-line-data" data-line-start="6" data-line-end="12">ตัวอย่างเช่น Array T  = [10,2,5,1,8,20]<br>
 สามารถสร้าง สามเหลี่ยมได้ จาก T[0] (10) , T[2] (5) และ T[4] (8)<br>
 10 + 5 &gt; 8<br>
