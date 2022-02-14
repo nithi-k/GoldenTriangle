@@ -1,9 +1,9 @@
 import UIKit
 
 
-public func solution(_ A :[Int]) -> Int {
+public func solution(_ T :[Int]) -> Bool {
     //TODO: START IMPLEMENTING HERE
-    return 0
+    return false
 }
 
 print(solution([10,50,5,1])) //MARK: TEST CASES
